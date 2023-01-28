@@ -22,6 +22,10 @@ time, mark, audio, video {
 
 /* --------- Begin your CSS Below here --------- */
 
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	--text-light: #fff;
 }

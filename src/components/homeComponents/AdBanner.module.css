@@ -16,21 +16,3 @@ h1 {
     width: 45%;
     gap: 1rem;
 }
-
-
-.blueBtn {
-    background-color: var(--accent);
-    border: none;
-    border-radius: 5px;
-    box-shadow: 4px 4px 20px rgba(65, 35, 3, 0.24);
-    color: var(--text-light);
-    padding: 0.5rem 0.8rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.blueBtn:hover {
-    color: var(--accent);
-    cursor: pointer;
-    background-color: rgba(170, 243, 243, 0.941);
-    transform: scale(1.1);
-}

@@ -49,3 +49,8 @@ time, mark, audio, video {
     background-color: rgba(170, 243, 243, 0.941);
     transform: scale(1.1);
 }
+
+/* Todo: fix padding */
+.contentBody {
+    padding: 5rem 10rem;
+}

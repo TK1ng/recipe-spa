@@ -24,7 +24,7 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
-      <main style={{display: "flex"}}>
+      <main className="contentBody">
         <RecipeCard />
       </main>
     </div>

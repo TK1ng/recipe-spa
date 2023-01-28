@@ -1,0 +1,34 @@
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.banner {
+    color: var(--text-light);
+    padding: 3.5rem;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:  auto;
+    width: 45%;
+    gap: 1rem;
+}
+
+
+.blueBtn {
+    background-color: var(--accent);
+    border: none;
+    color: var(--text-light);
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.blueBtn:hover {
+    cursor: pointer;
+    background-color: rgba(170, 243, 243, 0.941);
+    color: var(--accent);
+    transform: scale(1.1);
+}

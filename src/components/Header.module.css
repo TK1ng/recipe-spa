@@ -12,14 +12,14 @@
 .navBar button {
     color: var(--text-light);
     font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
     border: none;
-    background-color: rgb(248, 130, 20);
+    background-color: transparent;
     transition: all .3s ease-in-out;
 }
 
 .navBar button:hover {
-    background-color: rgb(241, 172, 107);box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
-    border-radius: 5px;
-    padding: 0.5rem;
+    background-color: rgb(249, 179, 114);box-shadow: 4px 4px 20px rgba(33, 54, 91, 0.24);
     cursor: pointer;
 }

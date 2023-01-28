@@ -28,4 +28,5 @@ time, mark, audio, video {
 
 :root {
 	--text-light: #fff;
+	--accent: rgb(78, 131, 131);
 }

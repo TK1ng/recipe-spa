@@ -1,10 +1,10 @@
 import styles from "./RecipeCard.module.css";
 
-const RecipeCard = ({ recipe_name, image_url }) => {
+const RecipeCard = ({ recipe }) => {
     return ( 
         <div className={styles.recipeCard}>
-            <img src={image_url} alt={recipe_name}/>
-            <p>{recipe_name}</p>
+            <img src={recipe.image_url} alt={recipe.recipe_name}/>
+            <p>{recipe.recipe_name}</p>
             <button className="blueBtn">
                 See More
             </button>

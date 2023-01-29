@@ -32,6 +32,11 @@ time, mark, audio, video {
 	--accent: rgb(78, 131, 131);
 }
 
+.App {
+    position: relative;
+    min-height: 100vh;
+}
+
 .blueBtn {
     background-color: var(--accent);
     border: none;
@@ -51,7 +56,7 @@ time, mark, audio, video {
 }
 
 .contentBody {
-    padding: 0 8rem 2rem 8rem;
+    padding: 0 8rem 15rem 8rem;
 }
 
 input {

@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<HomeScreen />}></Route>
+        <Route path="/" exact element={<HomeScreen />}></Route>
         <Route path="/new-recipe" element={<NewRecipeScreen />}></Route>
         <Route path="/recipes/:recipeId" element={<DetailScreen />}></Route>
       </Routes>

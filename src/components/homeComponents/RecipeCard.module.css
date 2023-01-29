@@ -1,5 +1,5 @@
 .recipeCard {
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 4px 4px 20px rgba(33, 54, 91, 0.24);
     display: flex;
     flex-direction: column;
@@ -7,6 +7,7 @@
     align-items: center;
     height: 325px;
     width: 205px;
+    overflow: hidden;
 }
 
 .recipeCard img {

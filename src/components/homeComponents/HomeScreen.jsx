@@ -6,7 +6,7 @@ import RecipeCard from './RecipeCard';
 
 const HomeScreen = () => { 
   const [recipes, setRecipes] = useState([]);
-const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
   const inputRef = useRef(null);
 
@@ -20,21 +20,20 @@ const [searchTerm, setSearchTerm] = useState('');
   });
 
   const recipeCards = filteredRecipes.map(recipe => {
-    return <RecipeCard recipe={recipe} />
+    return <RecipeCard recipe={recipe} key={recipe.recipe_id}/>
   });
 
-
-  const getRecipes = () => {
-    axios.get('https://recipes.devmountain.com/recipes')
-    .then(res => {
-      setRecipes(res.data);
-    })
-    .catch(err => {
-      console.log(err);
-    })
-  }
-
   useEffect(() => {
+    const getRecipes = () => {
+      axios.get('https://recipes.devmountain.com/recipes')
+      .then(res => {
+        setRecipes(res.data);
+      })
+      .catch(err => {
+        console.log(err);
+      })
+    }
+
     getRecipes();
   }, [])
 

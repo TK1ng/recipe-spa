@@ -51,7 +51,7 @@ time, mark, audio, video {
 }
 
 .contentBody {
-    padding: 0 10rem 2rem 10rem;
+    padding: 0 8rem 2rem 8rem;
 }
 
 input {
@@ -63,6 +63,13 @@ input {
 
 input:focus {
     outline: none;
+}
+
+.recipeDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 

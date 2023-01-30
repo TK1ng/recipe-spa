@@ -9,10 +9,11 @@ h1 {
 }
 
 .bannerContent {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin:  auto;
-    width: 45%;
     gap: 1rem;
+    margin:  auto;
+    text-align: center;
+    width: 45%;
 }

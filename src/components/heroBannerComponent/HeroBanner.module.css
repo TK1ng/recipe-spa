@@ -1,0 +1,12 @@
+.heroBanner {
+    color: var(--text-light);
+    padding: 3.5rem;
+    height: 30vh;
+}
+
+.recipeTitle {
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-align: center;
+    
+}

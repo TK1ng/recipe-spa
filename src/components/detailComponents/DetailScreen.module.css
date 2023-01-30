@@ -1,0 +1,38 @@
+.card {
+    /* border: 1px solid #4a4847; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 1.5rem;
+    height: fit-content;
+}
+
+.contentBody {
+    display: flex;
+    gap: 4rem;
+}
+
+.detailsContainer {
+    padding: 2rem 8rem 15rem 8rem;
+}
+
+.detailsContainer li {
+    list-style: none;
+}
+
+
+.details {
+    min-width: 200px;
+}
+
+.detailsContainer h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.instructions p {
+    white-space: pre-wrap;
+}
+
+.recipe {
+    margin-bottom: 1.5rem;
+}

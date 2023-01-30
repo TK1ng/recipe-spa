@@ -1,9 +1,15 @@
 import React from "react";
 import salmon from "../../assets/salmon.jpg";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./AdBanner.module.css";
 
 const AdBanner = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/recipes/3');
+  }
+
   return (
     <div className={styles.banner}
       style={{
@@ -22,9 +28,7 @@ const AdBanner = () => {
           This recipe consists of fresh wild Alaskan salmon, rubbed in a bbq
           brown sugar rub, baked for 25 minutes on a bed of pineapple, and garnished in butter, garlic, and chives. You won't want to miss it!
         </h3>
-        <Link to="/recipe/3">
-          <button className="blueBtn">Check it out</button>
-        </Link>
+          <button className="blueBtn" onClick={handleClick}>Check it out</button>
       </div>
     </div>
   );
